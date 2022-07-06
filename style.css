@@ -4,3 +4,19 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+}
+
+.item_one, .item_two {
+    width: 50%;
+    height: 100vh;
+    border: 1px solid #000;
+}
+
+.item_one {
+    background-image: url("./imgs/arnold-francisca-f77Bh3inUpE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
