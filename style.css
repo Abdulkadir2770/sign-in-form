@@ -18,5 +18,13 @@
     background-image: url("./imgs/arnold-francisca-f77Bh3inUpE-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: #fff;
+}
+
+#logo {
+    background-color: #fff;
+    color: #000;
+    width: 60%;
+    text-align: center;
 }
 
