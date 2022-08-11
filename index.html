@@ -21,8 +21,8 @@
 
         <!--second half-->
         <div class="grid-container">
-            <form action="#" method="GET">
-                <h1>Let's do</h1>
+            <form action="https:google.com" method="GET">
+                <h1>Sign up now</h1>
                 <fieldset>
                    <section>
                         <div>
@@ -42,7 +42,7 @@
                         <div>
                             <label for="email">Email</label>
                         </div>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </section>
 
                     <section>
@@ -56,19 +56,22 @@
                         <div>
                             <label for="password">Password</label>
                         </div>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required minlength="5">
                     </section>
 
-                    <section> ss
+                    <section>
                         <div>
                             <label for="conf-password">Confirm Password</label>
                         </div>
-                        <input type="password" name="conf-password" id="conf-password">
+                        <input type="password" name="conf-password" id="conf-password" required minlength="5">
                     </section>
                 </fieldset>
 
                 <div>
                     <button type="submit">Sign up</button>
+                </div>
+                <div>
+                    <p>Already have an account? <span>Log in</span></p>
                 </div>
             </form>
         </div>
